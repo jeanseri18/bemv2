@@ -115,8 +115,7 @@
                         </ul>
                     </div>
                     <div class="d-flex flex-row gap-2">
-                        <a href="#"><img src="{{ asset('assets/images/svg/appstore.svg') }}" alt="" class="img-fluid" /></a>
-                        <a href="#"><img src="{{ asset('assets/images/svg/playstore.svg') }}" alt="" class="img-fluid" /></a>
+                      
                     </div>
                 </div>
             </div>

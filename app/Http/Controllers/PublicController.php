@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Blog;
+use App\Models\Action;
 use App\Models\Partenaire;
 
 class PublicController extends Controller
@@ -13,7 +14,10 @@ class PublicController extends Controller
     {
         $events = Blog::where('type', 'evenement')->where('statut', 'active')->get();
         $partenaires = Partenaire::all();
-
+        Action::create([
+            'action_type' => 'accueil',
+            'performed_at' => now(),
+        ]);
         return view('welcome',compact('events','partenaires'));
     }
 
@@ -21,7 +25,10 @@ class PublicController extends Controller
     public function about()
     {
         $partenaires = Partenaire::all();
-
+        Action::create([
+            'action_type' => 'apropos',
+            'performed_at' => now(),
+        ]);
         return view('public.about',compact('partenaires'));
     }
 
@@ -29,13 +36,19 @@ class PublicController extends Controller
     public function partner()
     {
         $partenaires = Partenaire::all();
-
+        Action::create([
+            'action_type' => 'partenaire',
+            'performed_at' => now(),
+        ]);
         return view('public.partner',compact('partenaires'));
     }
 
     // Méthode pour afficher la page "Contact Us"
     public function contactUs()
-    {
+    {   Action::create([
+        'action_type' => 'contact',
+        'performed_at' => now(),
+    ]);
         return view('public.contactus');
     }
 
@@ -47,6 +60,10 @@ class PublicController extends Controller
         return view('public.events', compact('events','webinars'));    }
     public function formation()
     {
+        Action::create([
+            'action_type' => 'formation',
+            'performed_at' => now(),
+        ]);
         return view('public.formations');
     }
 

@@ -21,7 +21,7 @@
 
     <link rel="canonical" href="{{ url()->current() }}">
     <link href="{{ asset('assets/libs/dragula/dist/dragula.min.css') }}" rel="stylesheet">
-    <title>@yield('title', 'Task Kanban - Admin Dashboard Template')</title>
+    <title>@yield('title', 'Bem tableau de bord')</title>
     
     @stack('head')
 </head>
@@ -33,13 +33,13 @@
             <div class="vh-100 simplebar-scrollable-y" data-simplebar="init">
                 <div class="simplebar-content">
                     <!-- Brand logo -->
-                    <a class="navbar-brand" href="{{ url('/') }}">
+                    <a class="navbar-brand" href="{{ url('/dashboard') }}">
                         <img src="{{ asset('assets/Logo-BEM-Executive 1.png') }}" alt="Geeks">
                     </a>
                     <!-- Navbar nav -->
                     <ul class="navbar-nav flex-column" id="sideNavbar">
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ url('/') }}">
+                            <a class="nav-link" href="{{ url('/dashboard') }}">
                                 <i class="nav-icon fe fe-home me-2"></i>
                                 Tableau de bord
                             </a>
@@ -56,12 +56,12 @@
                                 Partenaires
                             </a>
                         </li>
-                        <li class="nav-item">
+                        <!--li class="nav-item">
                             <a class="nav-link" href="{{ route('formations.index') }}">
                             <i class="nav-icon fe fe-award me-2"></i>
                             Formations
                             </a>
-                        </li>
+                        </li-->
                         <!-- Add more navigation items here -->
                     </ul>
                 </div>

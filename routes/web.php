@@ -65,3 +65,6 @@ Route::get('/dashboard', [DashboardController::class, 'dashboard'])->name('dashb
 
 Route::get('/event/{id}', [PublicController::class, 'showEvent'])->name('event.show');
 
+
+Route::post('/actions/visit-profile/{user}', [ActionController::class, 'visitProfile'])->name('actions.visitProfile');
+Route::post('/actions/make-call/{user}', [ActionController::class, 'makeCall'])->name('actions.makeCall');
