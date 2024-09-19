@@ -199,10 +199,10 @@ de faire financer sa formation par un organisme spécialisé.</p>
                 </div>
             </div>
 
-            <!-- Bouton -->
+            <!-- Bouton 
             <div class="col-md-12 text-center mt-3">
                 <a href="#" class="btn btn-primary">Contactez nous</a>
-            </div>
+            </div>-->
         </div>
             </div>
         </div>
