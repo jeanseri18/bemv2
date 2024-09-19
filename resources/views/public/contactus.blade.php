@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Contact | bemexecutive')
+@section('title', 'Contactez nous | Bem executive school')
 
 @section('content')<section class="py-8 bg-light border-bottom border-gray-800">
     <div class="container">

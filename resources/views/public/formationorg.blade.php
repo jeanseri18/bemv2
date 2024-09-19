@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Formation | bemexecutive')
+@section('title', 'Formation | Bem executive school')
 
 @section('content')
 <br>
@@ -37,11 +37,11 @@
             <div class="col-xl-6 col-md-6 col-12">
                 <div class="card card-lift h-100 text-center text-lg-start">
                     <div class="p-2">
-                        <a href="#"><img src="../../assets/images/formationorg/form.jpg" alt=""
+                        <a href="{{ route('formationcat') }}"><img src="../../assets/images/formationorg/form.jpg" alt=""
                                 class="img-fluid rounded-3 w-100"></a>
                     </div>
                     <div class="card-body pt-2">
-                        <h3><a class="text-inherit" href="#!">Formation catalogue
+                        <h3><a class="text-inherit" href="{{ route('formationcat') }}">Formation catalogue
                             </a></h3>
                     </div>
                 </div>
@@ -49,11 +49,11 @@
             <div class="col-xl-6 col-md-6 col-12">
                 <div class="card card-lift h-100 text-center text-lg-start">
                     <div class="p-2">
-                        <a href="#"><img src="../../assets/images/formationorg/handsome-young-businessman.jpg" alt=""
+                        <a href="{{ route('formationprogramme') }}"><img src="../../assets/images/formationorg/handsome-young-businessman.jpg" alt=""
                                 class="img-fluid rounded-3 w-100"></a>
                     </div>
                     <div class="card-body pt-2">
-                        <h3><a class="text-inherit" href="#!">Programme sur-mesure</a></h3>
+                        <h3><a class="text-inherit" href="{{ route('formationprogramme') }}">Programme sur-mesure</a></h3>
                     </div>
                 </div>
             </div>
@@ -98,7 +98,7 @@
 </section>
 <!-- Formulaire de contact -->
 <div class=" container  rounded-4 ">
-    <div class="text-left ">
+   <div class="text-left ">
         <span class="fw-semibold display-4">Contact</span>
         <h3 class=" mt-3 mb-0 text-black">Prêt à franchir un nouveau cap dans votre carrière ?</h3>
         <br>
@@ -212,4 +212,4 @@
 </div>
 </div>
 
-@endsection
+@endsection 

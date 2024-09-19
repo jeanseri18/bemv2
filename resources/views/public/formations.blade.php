@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Welcome | Geeks')
+@section('title', 'Formation | Bem executive school')
 
 @section('content')
 
@@ -19,7 +19,7 @@
 
 Réservée aux dirigeants et cadres supérieurs,<br> notre formation exécutive vous aide à affiner vos capacités de leadership stratégique et à naviguer les complexités du monde des affaires globalisé. <br><br>Ces programmes exclusifs sont conçus pour les leaders visionnaires souhaitant avoir un impact immédiat et durable dans leur organisation.   <br><br>    </p>
               </div>
-              <a href="{{ route('formationorg') }}" class="btn btn-primary btn-sm">En savoir plus</a>
+              <a href="{{ route('formationorg') }}" class="btn btn-primary ">En savoir plus</a>
 <br>
             </div>
           </div>
@@ -40,7 +40,7 @@ Réservée aux dirigeants et cadres supérieurs,<br> notre formation exécutive 
                 <p class="mb-0" style="font-size:18px">
                 Évoluez dans votre carrière grâce à des parcours de formation continue adaptés aux cadres actifs.<br><br> Nos programmes certifiants vous permettent d’acquérir de nouvelles compétences tout en conciliant vie professionnelle et développement personnel.<br><br> Choisissez parmi une sélection de domaines stratégiques tels que la finance, le marketing, ou la transformation digitale.<br></p>
             </div>
-            <a href="{{ route('formationcontinue') }}" class="btn btn-primary btn-sm">En savoir plus</a>
+            <a href="{{ route('formationcontinue') }}" class="btn btn-primary ">En savoir plus</a>
 
             </div>
             <div class="col-lg-5">
@@ -73,7 +73,7 @@ Réservée aux dirigeants et cadres supérieurs,<br> notre formation exécutive 
                 <p class="mb-0" style="font-size:18px">
                 Réservée aux dirigeants et cadres supérieurs,<br> notre formation exécutive vous aide à affiner vos capacités de leadership stratégique et à naviguer les complexités du monde des affaires globalisé.<br> <br>Ces programmes exclusifs sont conçus pour les leaders visionnaires souhaitant avoir un impact immédiat et durable dans leur organisation.<br><br></p>
               </div>
-              <a href="{{ route('formationexec') }}" class="btn btn-primary btn-sm">En savoir plus</a>
+              <a href="{{ route('formationexec') }}" class="btn btn-primary ">En savoir plus</a>
 <br>
             </div>
           </div>

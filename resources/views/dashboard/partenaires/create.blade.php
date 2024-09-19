@@ -16,16 +16,21 @@
 
             <!-- Status -->
             <div class="mb-3">
-                <label class="form-label">Status</label>
-                <div>
-                    <input type="radio" id="active" name="type" value="entreprise" class="btn-check" required>
-                    <label class="btn btn-outline-secondary" for="entrepise">entreprise</label>
-                    
-                    <input type="radio" id="inactive" name="type" value="ecole" class="btn-check" required>
-                    <label class="btn btn-outline-secondary" for="ecole">Ecole</label>
-                    <div class="invalid-feedback">Svp selectionnez le type</div>
-                </div>
-            </div>
+    <label class="form-label">Type</label>
+    <div>
+        <!-- Bouton radio pour entreprise -->
+        <input type="radio" id="entreprise" name="type" value="entreprise" class="btn-check" required>
+        <label class="btn btn-outline-secondary" for="entreprise">Entreprise</label>
+
+        <!-- Bouton radio pour école -->
+        <input type="radio" id="ecole" name="type" value="ecole" class="btn-check" required>
+        <label class="btn btn-outline-secondary" for="ecole">École</label>
+
+        <!-- Message d'erreur si aucun bouton n'est sélectionné -->
+        <div class="invalid-feedback">Veuillez sélectionner le type.</div>
+    </div>
+</div>
+
 
             <!-- Image -->
             <div class="mb-3">

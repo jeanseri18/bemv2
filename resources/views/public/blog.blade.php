@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Blog | bemexecutive')
+@section('title', 'Blog | Bem executive school')
 
 @section('content')
 <br><br>

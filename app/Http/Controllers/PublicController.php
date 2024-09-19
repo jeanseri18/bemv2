@@ -78,6 +78,19 @@ class PublicController extends Controller
         $partenaires = Partenaire::where('type', 'ecole')->get();
         return view('public.formationcontinue', compact('partenaires'));
     }
+
+
+    public function formationcertifiante()
+    {
+        $partenaires = Partenaire::where('type', 'ecole')->get();
+        return view('public.formationcontinue.certifiante', compact('partenaires'));
+    }
+
+    public function formationdiplomante()
+    {
+        $partenaires = Partenaire::where('type', 'ecole')->get();
+        return view('public.formationcontinue.diplomante', compact('partenaires'));
+    }
     public function formationexec()
     {
         $partenaires = Partenaire::where('type', 'ecole')->get();
@@ -90,7 +103,19 @@ class PublicController extends Controller
 
         return view('public.formationorg', compact('partenaires'));
     }
+    public function formationcat()
+    {
+        $partenaires = Partenaire::where('type', 'ecole')->get();
 
+        return view('public.formationorg.catalogue', compact('partenaires'));
+    }
+
+    public function formationprogramme()
+    {
+        $partenaires = Partenaire::where('type', 'ecole')->get();
+
+        return view('public.formationorg.programme', compact('partenaires'));
+    }
 
     public function actualite()
     {
