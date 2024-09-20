@@ -168,16 +168,16 @@ Nos formations certifiantes couvrent un large éventail de compétences clés po
     <div class="col-md-4 container" aria-hidden="true" tabindex="-1">
         <!-- Card -->
         <div class="card card-hover">
-            <a href="#">
+            <a href="{{ asset('pdf/BEM  ESSEC Executive Education -Détail des Modules  Administrateurs Banques (1) 1.pdf') }}">
                 <img src="../../assets/images/certif/Capture d’écran 2024-09-16 à 18.11.04.png" alt="course" class="card-img-top">
             </a>
             <!-- Card Body -->
             <div class="card-body">
                 <div class="d-flex justify-content-between align-items-center mb-3">
                     <span class="badge bg-info-soft">Certificat ESSEC</span>
-                    <a href="#" class="fs-5"><i class="fe fe-heart align-middle"></i></a>
+                    <a href="{{ asset('pdf/BEM  ESSEC Executive Education -Détail des Modules  Administrateurs Banques (1) 1.pdf') }}" class="fs-5"><i class="fe fe-heart align-middle"></i></a>
                 </div>
-                <h4 class="mb-2 text-truncate-line-2"><a href="#" class="text-inherit">Administrateur de banque</a></h4>
+                <h4 class="mb-2 text-truncate-line-2"><a href="{{ asset('pdf/BEM  ESSEC Executive Education -Détail des Modules  Administrateurs Banques (1) 1.pdf') }}" class="text-inherit">Administrateur de banque</a></h4>
                 <!-- List -->
                 <small>Formation complète pour la gestion des opérations bancaires, y compris la conformité réglementaire et la gestion des risques.</small>
                
@@ -188,16 +188,16 @@ Nos formations certifiantes couvrent un large éventail de compétences clés po
     <div class="col-md-4 container" aria-hidden="true" tabindex="-1">
         <!-- Card -->
         <div class="card card-hover">
-            <a href="#">
+            <a href="{{ asset('pdf/FICHE BUSINESS D & MARKETING 1.pdf') }}">
                 <img src="../../assets/images/certif/Capture d’écran 2024-09-16 à 18.13.08.png" alt="course" class="card-img-top">
             </a>
             <!-- Card Body -->
             <div class="card-body">
                 <div class="d-flex justify-content-between align-items-center mb-3">
                     <span class="badge bg-info-soft">Certificat Executif</span>
-                    <a href="#" class="fs-5"><i class="fe fe-heart align-middle"></i></a>
+                    <a href="{{ asset('pdf/FICHE BUSINESS D & MARKETING 1.pdf') }}" class="fs-5"><i class="fe fe-heart align-middle"></i></a>
                 </div>
-                <h4 class="mb-2 text-truncate-line-2"><a href="#" class="text-inherit">Advanced Finance Program</a></h4>
+                <h4 class="mb-2 text-truncate-line-2"><a href="{{ asset('pdf/FICHE BUSINESS D & MARKETING 1.pdf') }}" class="text-inherit">Advanced Finance Program</a></h4>
                 <!-- List -->
                 <small>Programme avancé couvrant la finance d'entreprise, les marchés financiers et la gestion des investissements.</small>
                
@@ -288,16 +288,17 @@ Nos formations certifiantes couvrent un large éventail de compétences clés po
     <div class="col-md-4 container" aria-hidden="true" tabindex="-1">
         <!-- Card -->
         <div class="card card-hover">
-            <a href="#">
+            <a href="{{ asset('pdf/FICHE COM RELATION P 1.pdf') }}">
                 <img src="../../assets/images/certif/Capture d’écran 2024-09-16 à 18.14.30.png" alt="course" class="card-img-top">
             </a>
             <!-- Card Body -->
             <div class="card-body">
+            
                 <div class="d-flex justify-content-between align-items-center mb-3">
                     <span class="badge bg-info-soft">Certificat Executif</span>
-                    <a href="#" class="fs-5"><i class="fe fe-heart align-middle"></i></a>
+                    <a href="{{ asset('pdf/FICHE COM RELATION P 1.pdf') }}" class="fs-5"><i class="fe fe-heart align-middle"></i></a>
                 </div>
-                <h4 class="mb-2 text-truncate-line-2"><a href="#" class="text-inherit">Certificat Leadership & Innovation </a></h4>
+                <h4 class="mb-2 text-truncate-line-2"><a href="{{ asset('pdf/FICHE COM RELATION P 1.pdf') }}" class="text-inherit">Certificat Leadership & Innovation </a></h4>
                 <!-- List -->
                 <small>Programme axé sur le leadership dans le secteur public, avec un accent sur l'innovation et la gestion des politiques publiques.</small>
                
@@ -308,16 +309,17 @@ Nos formations certifiantes couvrent un large éventail de compétences clés po
     <div class="col-md-4 container" aria-hidden="true" tabindex="-1">
         <!-- Card -->
         <div class="card card-hover">
-            <a href="#">
+            <a href="{{ asset('pdf/Excellence_Operationnelle_Syllabus 1.pdf') }}">
                 <img src="../../assets/images/certif/Capture d’écran 2024-09-16 à 18.14.40.png" alt="course" class="card-img-top">
             </a>
             <!-- Card Body -->
+           
             <div class="card-body">
                 <div class="d-flex justify-content-between align-items-center mb-3">
                     <span class="badge bg-info-soft">Certificat Executif</span>
-                    <a href="#" class="fs-5"><i class="fe fe-heart align-middle"></i></a>
+                    <a href="{{ asset('pdf/Excellence_Operationnelle_Syllabus 1.pdf') }}" class="fs-5"><i class="fe fe-heart align-middle"></i></a>
                 </div>
-                <h4 class="mb-2 text-truncate-line-2"><a href="#" class="text-inherit">Certificat Lean Six Sigma</a></h4>
+                <h4 class="mb-2 text-truncate-line-2"><a href="{{ asset('pdf/Excellence_Operationnelle_Syllabus 1.pdf') }}" class="text-inherit">Certificat Lean Six Sigma</a></h4>
                 <!-- List -->
                 <small>Formation sur la méthodologie Lean Six Sigma pour améliorer les processus et la qualité dans les organisations.</small>
                
@@ -328,16 +330,16 @@ Nos formations certifiantes couvrent un large éventail de compétences clés po
     <div class="col-md-4 container" aria-hidden="true" tabindex="-1">
         <!-- Card -->
         <div class="card card-hover">
-            <a href="#">
+            <a href="{{ asset('pdf/Gestion_Projet_Syllabus 1.pdf') }}"">
                 <img src="../../assets/images/certif/Capture d’écran 2024-09-16 à 18.14.49.png" alt="course" class="card-img-top">
             </a>
             <!-- Card Body -->
             <div class="card-body">
                 <div class="d-flex justify-content-between align-items-center mb-3">
                     <span class="badge bg-info-soft">Certificat Executif</span>
-                    <a href="#" class="fs-5"><i class="fe fe-heart align-middle"></i></a>
+                    <a href="{{ asset('pdf/Gestion_Projet_Syllabus 1.pdf') }}" class="fs-5"><i class="fe fe-heart align-middle"></i></a>
                 </div>
-                <h4 class="mb-2 text-truncate-line-2"><a href="#" class="text-inherit">Gestion de Projet Prédictive & Agile</a></h4>
+                <h4 class="mb-2 text-truncate-line-2"><a href="{{ asset('pdf/Gestion_Projet_Syllabus 1.pdf') }}" class="text-inherit">Gestion de Projet Prédictive & Agile</a></h4>
                 <!-- List -->
                 <small>Programme combinant les méthodologies de gestion de projet prédictives et agiles pour une flexibilité maximale.</small>
                

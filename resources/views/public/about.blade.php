@@ -149,7 +149,7 @@
                                         <img src="../assets/images/default-placeholder.jpg" class="icon-xs"
                                             alt="Image par défaut">
                                         @endif</span>
-                            <span class="ms-1 d-none d-lg-inline-flex">Sotra</span>
+                            <span class="ms-1 d-none d-lg-inline-flex">{{ $partenaire->titre }}</span>
 
                         </a>
 

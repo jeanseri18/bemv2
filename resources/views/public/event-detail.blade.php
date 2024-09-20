@@ -15,11 +15,11 @@
           </div>
           <div class="row justify-content-center">
             <!-- Image -->
-            <div class="col-xl-10 col-lg-10 col-md-12 col-12 mb-6">
+            <div class="col-xl-8 col-lg-8 col-md-12 col-12 mb-2">
             @if($event->image)
-                                        <img src="{{ Storage::url($event->image) }}" alt="{{ $event->titre }}"  class="img-fluid rounded-3 w-100">
+                                        <img src="{{ Storage::url($event->image) }}" alt="{{ $event->titre }}"  class="img-fluid rounded-3 w-75">
                                         @else
-                                        <img src="../assets/images/default-placeholder.jpg" alt="blogpost" class="img-fluid rounded-3 w-100">
+                                        <img src="../assets/images/default-placeholder.jpg" alt="blogpost" class="img-fluid rounded-3 w-75">
                                         @endif
               
             </div>
